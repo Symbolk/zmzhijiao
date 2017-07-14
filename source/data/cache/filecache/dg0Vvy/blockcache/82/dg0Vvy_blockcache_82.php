@@ -1,0 +1,42 @@
+<?php
+$data = array (
+  'exp' => 1496218945,
+  'data' => 
+  array (
+    'bid' => '82',
+    'blockclass' => 'html_html',
+    'blocktype' => '0',
+    'name' => '资讯列表页广告位2',
+    'title' => '',
+    'classname' => 'zxlbyad2',
+    'summary' => '<img src="template/xinglan_d10/image/ads/zxggao2.png" width="100%" />',
+    'uid' => '1',
+    'username' => 'admin',
+    'styleid' => '0',
+    'blockstyle' => '',
+    'picwidth' => '0',
+    'picheight' => '0',
+    'target' => 'blank',
+    'dateformat' => 'Y-m-d',
+    'dateuformat' => '0',
+    'script' => 'banner',
+    'param' => 
+    array (
+      'pic' => 'template/xinglan_d10/image/ads/zxggao2.png',
+      'url' => '',
+      'atarget' => '_blank',
+      'width' => '100%',
+      'height' => '',
+      'text' => '',
+      'items' => '10',
+    ),
+    'shownum' => '10',
+    'cachetime' => '0',
+    'cachetimerange' => '0,0',
+    'punctualupdate' => '0',
+    'hidedisplay' => '0',
+    'dateline' => '1494728355',
+    'notinherited' => '0',
+    'isblank' => '0',
+  ),
+);

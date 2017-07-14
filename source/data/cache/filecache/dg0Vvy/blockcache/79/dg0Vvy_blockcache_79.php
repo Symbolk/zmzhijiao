@@ -1,0 +1,42 @@
+<?php
+$data = array (
+  'exp' => 1498908020,
+  'data' => 
+  array (
+    'bid' => '79',
+    'blockclass' => 'html_html',
+    'blocktype' => '0',
+    'name' => '¹Ì¶¨Í¼Æ¬',
+    'title' => '',
+    'classname' => 'zxyggao1',
+    'summary' => '<img src="data/attachment/portal/201705/31/161236ppgwsdwppwvrwsg1.jpg" width="100%" />',
+    'uid' => '1',
+    'username' => 'admin',
+    'styleid' => '0',
+    'blockstyle' => '',
+    'picwidth' => '0',
+    'picheight' => '0',
+    'target' => 'blank',
+    'dateformat' => 'Y-m-d',
+    'dateuformat' => '0',
+    'script' => 'banner',
+    'param' => 
+    array (
+      'pic' => 'data/attachment/portal/201705/31/161236ppgwsdwppwvrwsg1.jpg',
+      'url' => '',
+      'atarget' => '_blank',
+      'width' => '100%',
+      'height' => '',
+      'text' => '',
+      'items' => 10,
+    ),
+    'shownum' => '10',
+    'cachetime' => '0',
+    'cachetimerange' => '0,0',
+    'punctualupdate' => '0',
+    'hidedisplay' => '0',
+    'dateline' => '1496218356',
+    'notinherited' => '0',
+    'isblank' => '0',
+  ),
+);

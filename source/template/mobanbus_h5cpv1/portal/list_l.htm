@@ -1,0 +1,115 @@
+<!--{template common/header}-->
+<!--[name]门户列表普通模式-模板巴士[/name]-->
+<!--{eval $list = array();}-->
+<!--{eval $wheresql = category_get_wheresql($cat);}-->
+<!--{eval $list = category_get_list($cat, $wheresql, $page);}-->
+</div>
+<div class="bus_pt_01"><span class="bus_indexbg_col s01"></span>
+	<div class="mobanbus">
+		<div class="bus_relative">
+			<div class="pt_a">
+			<a href="./" title="{lang homepage}">{lang homepage}</a> <em> &rsaquo; </em>
+			<!--{loop $cat[ups] $value}--> <a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a><em>&rsaquo;</em><!--{/loop}-->
+			$cat[catname]
+			</div>
+			
+			<!--{if $cat[subs]}-->
+			<div class="pt_b">
+				{lang sub_category}:&nbsp;&nbsp;
+				<!--{eval $i = 1;}-->
+				<!--{loop $cat[subs] $value}-->
+				<!--{if $i != 1}--><span class="pipe">|</span><!--{/if}--><a href="{$portalcategory[$value['catid']]['caturl']}" class="xi2">$value[catname]</a><!--{eval $i--;}-->
+				<!--{/loop}-->
+			</div>
+			<!--{/if}-->
+			
+		</div>
+	</div>
+</div>
+<div class="mobanbus">
+<!--{ad/text/wp a_t}-->
+<style id="diy_style" type="text/css"></style>
+<div class="wp">
+	<!--[diy=diy1]--><div id="diy1" class="area"></div><!--[/diy]-->
+</div>
+<div id="ct" class="ct2 cl mobanbus_list">
+	<div class="mobanbus_list_r">
+<!--{if $cat[others]}-->
+		<div class="bus_listsort">
+			<div class="bus_listsort_tt">
+				<h2 class="this">关于我们</h2>
+				<span class="this">ABOUT US</span>
+			</div>
+			<div class="bus_listsort_item">
+				<ul>
+					<!--{loop $cat[others] $value}-->
+					<li>&bull; <a href="{$portalcategory[$value['catid']]['caturl']}">$value[catname]</a></li>
+					<!--{/loop}-->
+				</ul>
+			</div>
+			
+			<div class="bus_listsort_tt">
+				<h2 class="this">联系我们</h2>
+				<span class="this">CONTACT US</span>
+			</div>
+			<div class="bus_listsort_item">
+				<ul class="contact">
+					<span class="this">地址：北京市大兴区巴园子巴福街中一条9号</span>
+					<span class="this">电话：400-676-9888</span>
+					<span class="this">联系人：周小姐</span>
+					<span class="this">邮箱：hi@wolunmc.com</span>
+				</ul>
+			</div>
+				
+		</div>
+<!--{/if}-->
+	</div>
+
+	<div class="mobanbus_list_l">
+		<!--{ad/articlelist/mbm hm/1}--><!--{ad/articlelist/mbm hm/2}-->
+		<!--[diy=listcontenttop]--><div id="listcontenttop" class="area"></div><!--[/diy]-->
+		<div class="bm">
+			<div class="sidebar_tit">
+			<div class="bm_h cl">
+				<!--{if $_G[setting][rssstatus] && !$_GET['archiveid']}--><a href="portal.php?mod=rss&catid=$cat[catid]" class="y xi2 rss" target="_blank" title="RSS">{lang rss_subscribe_this}</a><!--{/if}-->
+				<!--{if ($_G['group']['allowpostarticle'] || $_G['group']['allowmanagearticle'] || $categoryperm[$catid]['allowmanage'] || $categoryperm[$catid]['allowpublish']) && empty($cat['disallowpublish'])}-->
+				<a href="portal.php?mod=portalcp&ac=article&catid=$cat[catid]" class="y xi2 addnew">{lang article_publish}</a>
+				<!--{/if}-->
+				<h1 class="xs2">$cat[catname]</h1>
+			</div>
+			</div>
+		
+			<div class="bm_c row1lf">
+			<!--{loop $list['list'] $value}-->
+				<!--{eval $highlight = article_title_style($value);}-->
+				<!--{eval $article_url = fetch_article_url($value);}-->
+				<dl><!--{if $value[pic]}--><dt><a href="$article_url" target="_blank"><img src="$value[pic]" alt="$value[title]" class="tn" /></a></dt><!--{/if}-->
+				<dd <!--{if $value[pic]}--><!--{else}-->style="width:95%;"<!--{/if}-->><b class="jd"><a href="$article_url" target="_blank" $highlight>$value[title]</a> <!--{if $value[status] == 1}-->({lang moderate_need})<!--{/if}--></b>
+				$value[summary]....<a href="$article_url" target=_blank>全文&gt;&gt;</a></dd>
+				
+				<dd>
+						<span class="xg1"> $value[dateline]</span>
+						<!--{if $_G['group']['allowmanagearticle'] || ($_G['group']['allowpostarticle'] && $value['uid'] == $_G['uid'] && (empty($_G['group']['allowpostarticlemod']) || $_G['group']['allowpostarticlemod'] && $value['status'] == 1)) || $categoryperm[$value['catid']]['allowmanage']}-->
+						<span class="xg1">
+							<span class="pipe">|</span>
+							<label><a href="portal.php?mod=portalcp&ac=article&op=edit&aid=$value[aid]">{lang edit}</a></label>
+							<span class="pipe">|</span>
+							<label><a href="portal.php?mod=portalcp&ac=article&op=delete&aid=$value[aid]" id="article_delete_$value[aid]" onclick="showWindow(this.id, this.href, 'get', 0);">{lang delete}</a></label>
+						</span>
+						<!--{/if}-->
+						<span class="xg1"><span class="pipe">|</span><!--{if $value[catname] && $cat[subs]}--><label>{lang category}: <a href="{$portalcategory[$value['catid']]['caturl']}" class="xi2">$value[catname]</a></label>&nbsp;&nbsp;<!--{/if}--></span>
+					</dd>
+				</dl>
+			<!--{/loop}-->
+			</div>
+			<!--[diy=listloopbottom]--><div id="listloopbottom" class="area"></div><!--[/diy]-->
+		</div>
+		<!--{ad/articlelist/mbm hm/3}--><!--{ad/articlelist/mbm hm/4}-->
+		<!--{if $list['multi']}--><div class="pgs cl">{$list['multi']}</div><!--{/if}-->
+		<!--[diy=diycontentbottom]--><div id="diycontentbottom" class="area"></div><!--[/diy]-->
+	</div>
+  </div>
+<div class="wp mtn">
+	<!--[diy=diy3]--><div id="diy3" class="area"></div><!--[/diy]-->
+</div>
+<!--{template common/footer}-->

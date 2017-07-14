@@ -1,0 +1,70 @@
+<?php
+$data = array (
+  'exp' => 1496805730,
+  'data' => 
+  array (
+    'bid' => '155',
+    'blockclass' => 'group_group',
+    'blocktype' => '0',
+    'name' => '群组',
+    'title' => '',
+    'classname' => '',
+    'summary' => '',
+    'uid' => '1',
+    'username' => 'admin',
+    'styleid' => '39',
+    'blockstyle' => '',
+    'picwidth' => '0',
+    'picheight' => '0',
+    'target' => 'blank',
+    'dateformat' => 'Y-m-d',
+    'dateuformat' => '0',
+    'script' => 'group',
+    'param' => 
+    array (
+      'gtids' => 
+      array (
+        0 => '0',
+      ),
+      'fids' => '',
+      'titlelength' => '40',
+      'summarylength' => '80',
+      'orderby' => 'displayorder',
+      'items' => 10,
+      'bannedids' => '40',
+    ),
+    'shownum' => '10',
+    'cachetime' => '3600',
+    'cachetimerange' => '',
+    'punctualupdate' => '0',
+    'hidedisplay' => '0',
+    'dateline' => 1496805430,
+    'notinherited' => '0',
+    'isblank' => '0',
+    'moreurl' => 0,
+    'itemlist' => 
+    array (
+      0 => 
+      array (
+        'itemid' => '258',
+        'bid' => '155',
+        'id' => '39',
+        'idtype' => 'fid',
+        'itemtype' => '2',
+        'title' => '信科爱心支教小队',
+        'url' => 'forum.php?mod=group&fid=39',
+        'pic' => 'group/',
+        'picflag' => '1',
+        'makethumb' => 0,
+        'thumbpath' => 'block/d4/d42cb06c5eb117826917cb3dffd7c565.jpg',
+        'summary' => '喜欢Dota，也喜欢支教，充满爱的队伍',
+        'showstyle' => '',
+        'related' => '',
+        'fields' => 'a:12:{s:9:"fulltitle";s:16:"信科爱心支教小队";s:4:"icon";s:42:"data/attachment/group/d6/group_39_icon.png";s:10:"founderuid";i:3;s:11:"foundername";s:14:"ceshizhuanyong";s:7:"threads";i:0;s:5:"posts";i:0;s:10:"todayposts";i:0;s:8:"dateline";i:1494913399;s:5:"level";i:1;s:9:"membernum";i:1;s:8:"activity";i:0;s:13:"commoncredits";i:0;}',
+        'displayorder' => 1,
+        'startdate' => '1496805360',
+        'enddate' => '0',
+      ),
+    ),
+  ),
+);

@@ -1,0 +1,42 @@
+<?php
+$data = array (
+  'exp' => 1496218682,
+  'data' => 
+  array (
+    'bid' => '138',
+    'blockclass' => 'html_html',
+    'blocktype' => '0',
+    'name' => '模板巴士帖子列表中间-广告',
+    'title' => '',
+    'classname' => '',
+    'summary' => '<a href="http://www.mobanbus.cn/" target="_blank"><img src="http://demo.mobanbus.cn/vlive/data/attachment/portal/201412/03/155645dxr1vy21yxxyyvrw.jpg" width="100%" /></a>',
+    'uid' => '1',
+    'username' => 'admin',
+    'styleid' => '0',
+    'blockstyle' => '',
+    'picwidth' => '0',
+    'picheight' => '0',
+    'target' => 'blank',
+    'dateformat' => 'Y-m-d',
+    'dateuformat' => '0',
+    'script' => 'banner',
+    'param' => 
+    array (
+      'pic' => 'http://demo.mobanbus.cn/vlive/data/attachment/portal/201412/03/155645dxr1vy21yxxyyvrw.jpg',
+      'url' => 'http://www.mobanbus.cn/',
+      'atarget' => '_blank',
+      'width' => '100%',
+      'height' => '',
+      'text' => '',
+      'items' => '10',
+    ),
+    'shownum' => '10',
+    'cachetime' => '3600',
+    'cachetimerange' => '',
+    'punctualupdate' => '0',
+    'hidedisplay' => '0',
+    'dateline' => 1496218382,
+    'notinherited' => '0',
+    'isblank' => '0',
+  ),
+);

@@ -1,0 +1,42 @@
+<?php
+$data = array (
+  'exp' => 1494727714,
+  'data' => 
+  array (
+    'bid' => '30',
+    'blockclass' => 'html_html',
+    'blocktype' => '0',
+    'name' => 'Ê×Ò³¹ã¸æÕÐ×â',
+    'title' => '',
+    'classname' => 'syggao1',
+    'summary' => '<img src="template/xinglan_d10/image/ads/ggzz1.png" width="100%" />',
+    'uid' => '1',
+    'username' => 'admin',
+    'styleid' => '0',
+    'blockstyle' => '',
+    'picwidth' => '0',
+    'picheight' => '0',
+    'target' => 'blank',
+    'dateformat' => 'Y-m-d',
+    'dateuformat' => '0',
+    'script' => 'banner',
+    'param' => 
+    array (
+      'pic' => 'template/xinglan_d10/image/ads/ggzz1.png',
+      'url' => '',
+      'atarget' => '_blank',
+      'width' => '100%',
+      'height' => '',
+      'text' => '',
+      'items' => '10',
+    ),
+    'shownum' => '10',
+    'cachetime' => '0',
+    'cachetimerange' => '0,0',
+    'punctualupdate' => '0',
+    'hidedisplay' => '0',
+    'dateline' => 1494727414,
+    'notinherited' => '0',
+    'isblank' => '0',
+  ),
+);

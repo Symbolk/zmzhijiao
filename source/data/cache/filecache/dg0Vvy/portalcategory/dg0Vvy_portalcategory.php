@@ -1,0 +1,41 @@
+<?php
+$data = array (
+  'exp' => 0,
+  'data' => 
+  array (
+    1 => 
+    array (
+      'catid' => '1',
+      'upid' => '0',
+      'catname' => '支教发布',
+      'articles' => '1',
+      'allowcomment' => '1',
+      'displayorder' => '3',
+      'notinheritedarticle' => '1',
+      'notinheritedblock' => '1',
+      'domain' => '',
+      'url' => '',
+      'uid' => '1',
+      'username' => 'admin',
+      'dateline' => '1494727775',
+      'closed' => '0',
+      'shownav' => '1',
+      'description' => '',
+      'seotitle' => '',
+      'keyword' => '',
+      'primaltplname' => './template/xinglan_d10:portal/list_a',
+      'articleprimaltplname' => './template/default:portal/view',
+      'disallowpublish' => '0',
+      'foldername' => '',
+      'notshowarticlesummay' => '0',
+      'perpage' => '15',
+      'maxpages' => '1000',
+      'noantitheft' => '0',
+      'lastpublish' => '1494728343',
+      'level' => 0,
+      'topid' => 1,
+      'caturl' => 'http://localhost/portal.php?mod=list&catid=1',
+      'fullfoldername' => '',
+    ),
+  ),
+);
