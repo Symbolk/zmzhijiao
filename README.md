@@ -60,9 +60,9 @@ _Thanks To @Team [Qunyingzhuan](https://github.com/Symbolk/zmzhijiao/blob/master
 ## 技术架构
 
 
-1，安装Discuz！；[Discuz!](http://www.discuz.net/forum.php "Discuz Forum") [教程]（http://www.godiscuz.com/ "tutorial"）
+1，安装Discuz！[Discuz!](http://www.discuz.net/forum.php "Discuz Forum") [教程](http://www.godiscuz.com/ "tutorial");
 
-2，安装[XAMPP](https://www.apachefriends.org/zh_cn/index.html "XAMPP offical site")
+2，安装[XAMPP](https://www.apachefriends.org/zh_cn/index.html "XAMPP offical site");
 
 3，将source文件夹放入xampp/htdocs；
 
@@ -70,7 +70,7 @@ _Thanks To @Team [Qunyingzhuan](https://github.com/Symbolk/zmzhijiao/blob/master
 
 ![xampp](https://github.com/Symbolk/zmzhijiao/blob/master/screenshots/xampp.jpg)
 
-5，访问http://localhost即可。
+5，访问http://localhost 即可。
 
 
 ## 口号
