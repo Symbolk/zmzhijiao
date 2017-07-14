@@ -3,12 +3,14 @@
 
 ---
 
+![logo](https://github.com/Symbolk/zmzhijiao/blob/master/images/logo.jpg)
+
 
 **芝麻支教---一个双向自由匹配式支教公益平台**
 
 _Powered By [@Symbolk](http://www.symbolk.com)_
 
-_Thanks To [@Team Qunyingzhuan]
+_Thanks To [@Team [Qunyingzhuan](https://github.com/Symbolk/zmzhijiao/blob/master/images/team.jpg)]_
 
 
 ## 总览：
@@ -37,16 +39,28 @@ _Thanks To [@Team Qunyingzhuan]
 ---
 ## 简介
 
-![SignIn](https://github.com/Symbolk/CrowdJigsawPuzzle/blob/master/screenshots/signin.jpg)
+![intro](https://github.com/Symbolk/zmzhijiao/blob/master/images/intro.jpg)
+
+
+## 特点
+
+![features](https://github.com/Symbolk/zmzhijiao/blob/master/images/features.jpg)
+
+![features2](https://github.com/Symbolk/zmzhijiao/blob/master/images/features2do.jpg)
 
 
 ## 网站
 
 
-![SignIn](https://github.com/Symbolk/CrowdJigsawPuzzle/blob/master/screenshots/signin.jpg)
+![home](https://github.com/Symbolk/zmzhijiao/blob/master/screenshots/home.jpg)
 
 
 
 ## 技术架构
 
+![xampp](https://github.com/Symbolk/zmzhijiao/blob/master/screenshots/xampp.jpg)
 
+
+## 口号
+
+![slogan](https://github.com/Symbolk/zmzhijiao/blob/master/images/slogan.jpg)
