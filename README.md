@@ -10,7 +10,7 @@
 
 _Powered By [@Symbolk](http://www.symbolk.com)_
 
-_Thanks To [@Team [Qunyingzhuan](https://github.com/Symbolk/zmzhijiao/blob/master/images/team.jpg)]_
+_Thanks To @Team [Qunyingzhuan](https://github.com/Symbolk/zmzhijiao/blob/master/images/team.jpg)_
 
 
 ## 总览：
@@ -25,13 +25,14 @@ _Thanks To [@Team [Qunyingzhuan](https://github.com/Symbolk/zmzhijiao/blob/maste
 
 > PHP
 
-###基于 :
+### 基于 :
 
 > [Discuz!](http://www.discuz.net/forum.php "Discuz Forum") 
 
-> [XAMPP](https://www.apachefriends.org/zh_cn/index.html "XAMPP offical site") 
+> [XAMPP](https://www.apachefriends.org/zh_cn/index.html "XAMPP offical site")
+ 
 
-###访问:
+### 访问:
 
 >  http://www.zmzhijiao.com
 
@@ -58,7 +59,18 @@ _Thanks To [@Team [Qunyingzhuan](https://github.com/Symbolk/zmzhijiao/blob/maste
 
 ## 技术架构
 
+
+1，安装Discuz！；[Discuz!](http://www.discuz.net/forum.php "Discuz Forum") [教程]（http://www.godiscuz.com/ "tutorial"）
+
+2，安装[XAMPP](https://www.apachefriends.org/zh_cn/index.html "XAMPP offical site")
+
+3，将source文件夹放入xampp/htdocs；
+
+4，启动Apache,Mysql,Tomcat：
+
 ![xampp](https://github.com/Symbolk/zmzhijiao/blob/master/screenshots/xampp.jpg)
+
+5，访问http://localhost即可。
 
 
 ## 口号
